@@ -2,37 +2,17 @@
 
 Una aplicación móvil híbrida desarrollada con **React Native** y **Expo** que permite consultar el clima de cualquier ciudad del mundo utilizando la API de OpenWeatherMap.
 
-## 📱 Características
+##  Características
 
-- ✅ **Consumo de API externa** (OpenWeatherMap)
-- ✅ **Peticiones HTTP** con manejo de respuestas JSON
-- ✅ **Interfaz de usuario moderna** y responsive
-- ✅ **Búsqueda por ciudad** con validación de entrada
-- ✅ **Manejo completo de errores**
-- ✅ **Información detallada del clima**
-- ✅ **Diseño atractivo** con gradientes y animaciones
+-  **Consumo de API externa** (OpenWeatherMap)
+-  **Peticiones HTTP** con manejo de respuestas JSON
+-  **Interfaz de usuario moderna** y responsive
+-  **Búsqueda por ciudad** con validación de entrada
+-  **Manejo completo de errores**
+-  **Información detallada del clima**
+-  **Diseño atractivo** con gradientes y animaciones
 
-## 🚀 Tecnologías Utilizadas
-
-- **React Native** - Framework para desarrollo móvil
-- **Expo** - Plataforma para desarrollo React Native
-- **OpenWeatherMap API** - Servicio de datos meteorológicos
-- **JavaScript ES6+** - Lenguaje de programación
-- **Expo Linear Gradient** - Para efectos visuales
-
-## 📦 Estructura del Proyecto
-
-```
-AppClima/
-├── components/          # Componentes reutilizables
-├── services/           # Servicios para API calls
-├── utils/             # Configuración y utilidades
-├── App.js            # Componente principal
-├── package.json      # Dependencias del proyecto
-└── README.md        # Este archivo
-```
-
-## 🔧 Instalación y Configuración
+##  Instalación y Configuración
 
 ### Prerrequisitos
 - **Node.js** (versión 14 o superior)
@@ -41,16 +21,9 @@ AppClima/
 
 ### Pasos de instalación
 
-1. **Clonar el repositorio**:
-   ```bash
-   git clone https://github.com/TU_USUARIO/AppClima.git
-   cd AppClima
-   ```
+1. **Clonar el repositorio**
 
-2. **Instalar dependencias**:
-   ```bash
-   npm install
-   ```
+2. **Instalar dependencias**
 
 3. **Configurar API Key**:
    - Ve a [OpenWeatherMap](https://openweathermap.org/api)
@@ -58,7 +31,7 @@ AppClima/
    - Abre el archivo `utils/config.js`
    - Reemplaza la API_KEY con tu clave real
 
-## 🏃‍♂️ Ejecutar la Aplicación
+##  Ejecutar la Aplicación
 
 ### Para móvil con Expo Go:
 ```bash
@@ -78,16 +51,10 @@ npm run web
 3. Ver los resultados del clima en tiempo real
 4. Usar las ciudades sugeridas para pruebas rápidas
 
-## 🧪 Casos de Prueba
-
-- ✅ **Ciudades válidas**: Madrid, Nueva York, Tokio
-- ❌ **Ciudad inexistente**: CiudadInventada123
-- ❌ **Campo vacío**: Error de validación
-
-## 🔑 API Key
-
-La aplicación utiliza la API de OpenWeatherMap. La API key está configurada en `utils/config.js`. Para uso en producción, reemplaza con tu propia API key.
-
 ---
 
 **Aplicación desarrollada como proyecto académico - React Native + Expo + OpenWeatherMap API**
+
+** Pruebas
+* <img width="739" height="1600" alt="image" src="https://github.com/user-attachments/assets/6749e7a0-5a5d-4f90-9126-464632990f60" />
+* <img width="739" height="1600" alt="image" src="https://github.com/user-attachments/assets/3cbb75a8-7dc7-4abd-8f75-30fd426fec79" />
