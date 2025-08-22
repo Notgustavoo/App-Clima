@@ -6,13 +6,21 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "web-no-login": "expo start --web --offline",
+    "serve": "npx serve -s web-build -p 8081"
   },
   "dependencies": {
+    "@expo/metro-runtime": "~5.0.4",
     "expo": "~53.0.20",
+    "expo-linear-gradient": "^14.1.5",
     "expo-status-bar": "~2.2.3",
+    "express": "^5.1.0",
     "react": "19.0.0",
-    "react-native": "0.79.5"
+    "react-dom": "^19.0.0",
+    "react-native": "0.79.5",
+    "react-native-web": "^0.20.0",
+    "serve": "^14.2.4"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
